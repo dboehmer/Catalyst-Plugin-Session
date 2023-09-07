@@ -742,17 +742,17 @@ This plugin links the two pieces together.
 
 =over 4
 
-=item Session::State::Cookie
+=item L<Session::State::Cookie>
 
 The only really sane way to do state is using cookies.
 
-=item Session::Store::File
+=item L<Session::Store::File>
 
-A portable backend, based on Cache::File.
+A portable backend, based on L<Cache::File>.
 
-=item Session::Store::FastMmap
+=item L<Session::Store::FastMmap>
 
-A fast and flexible backend, based on Cache::FastMmap.
+A fast and flexible backend, based on L<Cache::FastMmap>.
 
 =back
 
